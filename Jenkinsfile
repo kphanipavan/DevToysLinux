@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        sh 'flutter build'
+        sh '/home/bread/Applications/bin/flutter build'
       }
     }
 
