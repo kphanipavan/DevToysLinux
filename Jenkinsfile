@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh '/home/bread/Applications/bin/flutter build'
+        sh 'su - bread -c "/home/bread/Applications/bin/flutter build"'
       }
     }
 
